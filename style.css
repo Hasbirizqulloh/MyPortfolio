@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #eff4fd;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+.logo {
+  height: 10vh;
+  width: 4.5%;
+}
+
+.detail {
+  margin-top: 8%;
+  margin-left: 12%;
+}
+
+.detail h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span {
+  color: orange;
+}
+
+.detail p {
+  color: #555;
+  line-height: 22px;
+}
+
+.detail a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.detail a:hover {
+  color: orange;
+}
+.images {
+  cursor: pointer;
+}
+.images img {
+  height: 80vh;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(20%);
+  transition: bottom 1s, left 1s;
+}
+
+.images div {
+  border-radius: 10%;
+  background-color: rgb(245, 177, 52);
+  height: 450px;
+  width: 300px;
+  border: 10px solid rgb(24, 23, 23);
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  bottom: 0;
+  transform: translateX(55%);
+  transition: top 1s, left 1s;
+}
+.images:hover div {
+  top: 120px;
+  border-color: #555;
+  background-color: transparent;
+}
+.images:hover .man {
+  left: 48.5%;
+}
+
+/* ini bagian */
+
+/* Style untuk elemen "About Me" */
+
+.aboutme {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.aboutme table {
+  width: 100%;
+}
+
+.aboutme th {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.aboutme td {
+  padding: 20px;
+  font-size: 18px;
+}
+/* CSS untuk gaya progress bar */
+.skills-heading {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 20px;
+}
+
+.progress {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  width: 0; /* Nilai width akan diperbarui dengan persentase dalam elemen style. */
+}
+
+/* Style untuk elemen "What I Do" */
+/* CSS untuk gaya myhobby */
+.myhobby {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.myhobby table {
+  width: 100%;
+}
+
+.myhobby th {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.myhobby td {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.myhobby img {
+  max-width: 100px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+  margin-bottom: 10px;
+}
+
+.myhobby h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.myhobby p {
+  margin: 0;
+}
+
+/* Footer */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info h2,
+.footer-social h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin: 0;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-social a:last-child {
+  margin-right: 0;
+}
